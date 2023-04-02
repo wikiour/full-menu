@@ -1,0 +1,28 @@
+{
+  "name": "full-menu",
+  "version": "1.2.0",
+  "description": "Mega menu for the site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wikiour/full-menu.git"
+  },
+  "keywords": [
+    "menu",
+    "nav",
+    "website",
+    "site",
+    "mega",
+    "full"
+  ],
+  "author": "WikiOur",
+  "license": "GPL-3.0",
+  "types": "./index.d.ts",
+  "bugs": {
+    "url": "https://github.com/wikiour/full-menu/issues"
+  },
+  "homepage": "https://github.com/wikiour/full-menu#readme"
+}
