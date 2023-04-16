@@ -1,6 +1,6 @@
 {
   "name": "full-menu",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Mega menu for the site",
   "main": "index.js",
   "scripts": {

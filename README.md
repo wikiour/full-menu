@@ -1,6 +1,6 @@
 # FULL Nav Menu & Burger
 ## 🍁 Mega menu for the site
-###### This is an extended version of "menu-full". In this version of "full-menu" added burger menu. This menu will have additional modules that will expand the functionality of this menu, so subscribe to our <a href="https://github.com/wikiour">GitHub</a> so as not to miss updates and additions of extensions. If you need a basic script then you can install it from our <a href="https://github.com/wikiour/menu-full">"menu-full"</a> npm package or from our <a href="https://github.com/wikiour">GitHub</a> repository <a href="https://github.com/wikiour/menu-full">"menu-full"</a>. All extensions and updates will work with both menu-full and full-menu versions.
+###### This is an extended version of "menu-complete". This version of the "full menu" adds a burger menu and customizable modules. This menu has additional functional modules that will expand this menu. If you need a basic script, you can install it from our <a href="https://www.npmjs.com/package/menu-full">"menu-full"</a> npm package or from our <repository href="https://github.com/wikiour">GitHub</a> <a href="https://github.com/wikiour/menu-full">"menu-full"</a>.
 
 If you are looking for a library to create a complete menu for your site, then "full-menu" might be a great choice for you. This library provides an easy and convenient way to create beautiful and functional menus on your web pages.
 
@@ -91,6 +91,85 @@ npm i -D full-menu
 ```
 import navMenu from 'full-menu';
 navMenu();
+```
+
+##### Customize the menu the way you want
+```
+// Initialize your menu
+const settingsMenu = new navMenu({
+  // # Settings Menu
+});
+```
+```
+// const settingsMenu = new navMenu({
+  // --------------------------------
+  // # Settings Menu
+  // --------------------------------
+  // New class Menu = You can change all classes as you wish.
+  // --------------------------------
+  // Class for nav
+  // navMenu: 'new-nav-menu', // Default = nav-menu
+  // Class for all nav if menu contains submenu
+  // navSubMenu: 'new-nav-sub-menu', // Default = nav-sub-menu
+  // Class for all spans that have submenus
+  // navMenuSpan: 'new-nav-menu-span', // Default = nav-menu-span
+  // Class for all li's that have a submenu
+  // navMenuLi: 'new-nav-menu-li', // Default = nav-menu-li
+  // Class for all ul's that have a submenu
+  // navMenuUl: 'new-nav-menu-ul', // Default = nav-menu-ul
+  // Class for all active submenus
+  // navMenuActive: 'new-active', // Default = active
+  // Class for all div mega menu
+  // megaMenu: 'new-mega-menu', // Default = mega-menu
+  // Class for all span Open more
+  // openMore: 'new-open-more', // Restrict Span Class Default = open-more
+  // ## Modifications - extensions for your menu
+  // Enable Hover Effect for Entire Menu
+  // hoverEnabled: true, // Enable Hover Menu
+  // If you need to add date attributes to all menu items
+  // addAttributeEnabled: true, // Enable Data Attribute
+  // Do you want to change the default values? Here's how to do it
+  // dataUl: 'new-data-ul', // Default = data-ul + index
+  // dataLi: 'new-data-li', // Default = data-li + index
+  // dataSpan: 'new-data-span', // Default = data-span + index
+  // dataDiv: 'new-data-div', // Default = data-div + index
+  // Add extra classes for all your menu items
+  // If the elements contain a date attribute, then its value will be assigned, otherwise the current index
+  // addClassEnabled: true, // Enable Add Class
+  // classUl: 'new-ul', // Add Class  Default = ul-index
+  // classLi: 'new-li', // Add Class  Default = li-index
+  // classSpan: 'new-span', // Add Class  Default = span-index
+  // classDiv: 'new-div', // Add Class  Default = div-index
+  // If you want to globally include a Mega Menu which will wrap your nested uls in a div with class mega-menu
+  // megaMenuEnabled: true, // Enable Mega Menu Global
+  // If you want to enable a Mega Menu on a specific element which will wrap your nested ul in a div with class mega-menu
+  // megaMenuOneEnabled: true, // Enable Mega Menu One
+  // Determine the serial number for Mega Menu One
+  // liIndex: 0, // Mega Menu One Enable Index Li Default = 0
+  // Enable Hover Effect for Mega Menu One
+  // hoverMegaMenuEnabled: true, // Enable Hover Mega Menu
+  // Restrict submenu output for Mega Menu One
+  // restrictMegaMenuEnabled: true, // Enable Restrict Content
+  // Number of displayed submenus for Mega Menu One
+  // maxiRestrict: 2, // Restrict Default = 10
+  // Text details for Mega Menu One
+  // textRestrict: 'Open more ...', // Restrict Text Default = Open more
+  // --------------------------------
+  // # Settings Burger
+  // --------------------------------
+  // If you want to activate Burger menu
+  // burgerEnabled: true, // Enable Burger
+  // ## New class Burger
+  // The class for your div that contains nav.nav-menu
+  // headerMenu: 'new-header-menu', // Default = header-menu
+  // Class for active menu
+  // open: 'new-open', // Default = open
+  // Class for body when menu is active
+  // lockMenu: 'new-lock-menu', // Default = lock-menu
+  // Class for your Burger
+  // burger: 'new-burger', // Default = burger
+  // --------------------------------
+// });
 ```
 
 The "full-menu" library is a great choice for those who are looking for an easy, fast and flexible way to create a complete menu on their website. With it, you can quickly create a beautiful and functional menu that will work on all devices and match your design.
