@@ -90,18 +90,14 @@ npm i -D full-menu
 ##### Connecting to the project
 ```
 import navMenu from 'full-menu';
-navMenu();
+const menu = new navMenu({
+   // # Settings Menu
+});
 ```
 
 ##### Customize the menu the way you want
 ```
-// Initialize your menu
-const settingsMenu = new navMenu({
-  // # Settings Menu
-});
-```
-```
-// const settingsMenu = new navMenu({
+// const menu = new navMenu({
   // --------------------------------
   // # Settings Menu
   // --------------------------------
